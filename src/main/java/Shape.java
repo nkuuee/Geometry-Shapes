@@ -5,7 +5,8 @@ abstract class Shape {
         this.title = title;
     }
 
-    abstract double calculateSquare();
+    abstract double calculateArea();
+
     abstract double calculatePerimeter();
 
 }

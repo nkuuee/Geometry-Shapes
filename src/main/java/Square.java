@@ -1,7 +1,7 @@
 public class Square extends Shape {
     private double side;
 
-    Square(String title, double radius, double side) {
+    Square(String title, double side) {
         super(title);
         this.side = side;
     }

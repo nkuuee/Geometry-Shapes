@@ -7,7 +7,7 @@ public class SquareTest {
     @Test
     void testCalculateArea() {
         Square square = new Square("Square", 2);
-        double expected = 8;
+        double expected = 4;
         double actual = square.calculateArea();
         assertEquals(expected, actual, 0.01);
     }

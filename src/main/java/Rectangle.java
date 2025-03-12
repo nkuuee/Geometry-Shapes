@@ -17,5 +17,4 @@ public class Rectangle extends Shape {
         return (length + width) * 2;
     }
 
-
 }

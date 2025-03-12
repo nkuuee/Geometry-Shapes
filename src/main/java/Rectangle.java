@@ -13,6 +13,7 @@ public class Rectangle extends Shape {
         return length * width;
     }
 
+    @Override
     double calculatePerimeter() {
         return (length + width) * 2;
     }

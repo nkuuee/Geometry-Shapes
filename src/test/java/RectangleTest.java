@@ -6,19 +6,18 @@ public class RectangleTest {
 
     @Test
     void testCalculateArea() {
-        Rectangle rectangle = new Rectangle("Square", 20, 14);
-        double expected = 280;
+        Rectangle rectangle = new Rectangle("Square", 20.0, 14.0);
+        double expected = 280.0;
         double actual = rectangle.calculateArea();
         assertEquals(expected, actual, 0.01);
     }
 
     @Test
     void testCalculatePerimeter() {
-        Rectangle rectangle1 = new Rectangle("Perimeter", 20, 14);
-        double expected = 68;
+        Rectangle rectangle1 = new Rectangle("Perimeter", 20.0, 14.0);
+        double expected = 68.0;
         double actual = rectangle1.calculatePerimeter();
         assertEquals(expected, actual, 0.01);
     }
-
 
 }

@@ -6,7 +6,7 @@ public class CircleTest {
 
     @Test
     void testCalculateArea() {
-        Circle circle = new Circle("Area", 2);
+        Circle circle = new Circle("Area", 2.0);
         double expected = 12.56;
         double actual = circle.calculateArea();
         assertEquals(expected, actual, 0.01);
@@ -14,9 +14,10 @@ public class CircleTest {
 
     @Test
     void testCalculatePerimeter() {
-        Circle circle1 = new Circle("Perimeter", 2);
+        Circle circle1 = new Circle("Perimeter", 2.0);
         double expected = 12.56;
         double actual = circle1.calculatePerimeter();
         assertEquals(expected, actual, 0.01);
     }
+
 }
